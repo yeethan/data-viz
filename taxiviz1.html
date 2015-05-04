@@ -54,7 +54,7 @@
 		
 
 	</style>
-	<script type="text/javascript" src="d3.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -112,7 +112,7 @@
 			
 	//loading the data			
 		var dataSet = [];
-		d3.csv("https://raw.githubusercontent.com/yeethan/data-viz/ty2247-qmss-dataviz/weatherCabDataViz.csv", function(data){
+		d3.csv("weatherCabDataViz.csv", function(data){
 		dataSet = data
 		
 	//Parse the hour
